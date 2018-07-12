@@ -4,3 +4,6 @@ class Dog
   @snoopy = snoopy 
   @lassie = lassie
 end
+def fido
+  @fido
+end
