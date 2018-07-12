@@ -3,15 +3,8 @@ class Dog
   def initialize(name)
     @name = name 
   end
-
-def fido
-  @fido
 end
 
-def snoopy
-  @snoopy
-end
-
-def lassie
-  @lassie
-end
+fido = Dog.new("Fido")
+snoopy = Dog.new("Snoopy")
+lassie = Dog.new("Lassie")
